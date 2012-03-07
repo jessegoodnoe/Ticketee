@@ -45,3 +45,8 @@ group :test do
   gem 'email_spec'
 	gem 'launchy'
 end
+
+group :development do
+	gem 'capistrano'
+end
+	
