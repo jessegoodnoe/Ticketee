@@ -1,0 +1,18 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1330413120.803892:@value{	I"length:EFiI"digest;
+F"%be99c32f042f4a552ae5b42b58f13d04I"source;
+FI"(function() {
+
+  $(function() {
+    return $('a#add_another_file').click(function() {
+      var url;
+      url = "/files/new?number=" + $('#files input').length;
+      return $.get(url, function(data) {
+        return $('#files').append(data);
+      });
+    });
+  });
+
+}).call(this);
+;
+FI"_version;
+F"%42a34f60ec7969b2ecaf575245481c5f
